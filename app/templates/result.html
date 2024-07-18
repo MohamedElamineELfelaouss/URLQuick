@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortener Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="result">
+        <h1>URL Shortener</h1>
+        {% if short_url %}
+            <p>Shortened URL: <a href="{{ short_url }}">{{ short_url }}</a></p>
+        {% endif %}
+        <a href="{{ url_for('main.index') }}">Back to Home</a>
+    </div>
+</body>
+</html>
