@@ -22,8 +22,8 @@ A simple and elegant URL shortener application built with Flask, SQLAlchemy, and
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/url_shortener.git
-    cd url_shortener
+    git clone https://github.com/MohamedElamineELfelaouss/URLQuick.git
+    cd URLQuick
     ```
 
 2. Create a virtual environment:
