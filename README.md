@@ -1,9 +1,8 @@
-
 # URL Shortener
 
 A simple and elegant URL shortener application built with Flask, SQLAlchemy, and Bootstrap. This application allows users to shorten long URLs and manage their shortened links within a session.
 
-![Screenshot](static/images/screenshot.png)
+**Note:** This is an MVP (Minimum Viable Product) and not a full-fledged project.
 
 ## Features
 
@@ -62,48 +61,6 @@ A simple and elegant URL shortener application built with Flask, SQLAlchemy, and
     ```
 
 2. Open your web browser and navigate to `http://127.0.0.1:5000`.
-
-### Screenshots
-
-![Main Page](static/images/main_page.png)
-*Main Page for URL shortening*
-
-![URL List](static/images/url_list.png)
-*List of URLs created during the session*
-
-## Project Structure
-
-```
-url_shortener/
-│
-├── app/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── routes/
-│   │   ├── __init__.py
-│   │   └── main.py
-│   └── static/
-│       ├── css/
-│       │   └── styles.css
-│       ├── js/
-│       │   └── scripts.js
-│       └── images/
-│           ├── screenshot.png
-│           ├── main_page.png
-│           └── url_list.png
-│   └── templates/
-│       ├── index.html
-│       └── result.html
-├── instance/
-│   └── config.py
-├── migrations/
-├── venv/
-├── config.py
-├── README.md
-├── requirements.txt
-├── reset_db.py
-└── run.py
-```
 
 ## Contributing
 
